@@ -1,0 +1,340 @@
+* {
+
+    margin: 0;
+  
+    padding: 0;
+  
+    box-sizing: border-box;
+  
+  }
+  
+  
+  
+  a {
+  
+    text-decoration: none;
+  
+    color: inherit;
+  
+  }
+  
+  
+  
+  ul {
+  
+    list-style: none;
+  
+  }
+  
+  
+  
+  img {
+  
+    max-width: 100%;
+  
+    display: block;
+  
+  }
+  
+  
+  
+  .orange {
+  
+    color: #ba3d03;
+  
+  }
+  
+  
+  
+  body {
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    background: linear-gradient(to right, #3e0e04, #0d0505);
+  
+    height: 100vh;
+  
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+  }
+  
+  
+  
+  main {
+  
+    height: 90%;
+  
+    width: 80%;
+  
+    background: black;
+  
+    display: flex;
+  
+    color: white;
+  
+    border-radius: 20px;
+  
+    overflow: hidden;
+  
+  }
+  
+  
+  
+  .left {
+  
+    height: 100%;
+  
+    width: 50%;
+  
+  }
+  
+  
+  
+  .left img {
+  
+    height: 100%;
+  
+  }
+  
+  
+  
+  .right {
+  
+    width: 50%;
+  
+  }
+  
+  
+  
+  nav {
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+    align-items: center;
+  
+  }
+  
+  
+  
+  nav ul {
+  
+    display: flex;
+  
+    align-items: center;
+  
+  }
+  
+  
+  
+  nav li {
+  
+    margin-left: 20px;
+  
+  }
+  
+  
+  
+  /* FORM */
+  
+  form,
+  
+  .helpers {
+  
+    margin: 40px 0;
+  
+  }
+  
+  
+  
+  .group {
+  
+    border: 1px solid #ba3d03;
+  
+    padding: 15px;
+  
+    display: flex;
+  
+    align-items: center;
+  
+  }
+  
+  
+  
+  form .group:first-child {
+  
+    border-radius: 8px 8px 0 0;
+  
+  }
+  
+  
+  
+  form .group:nth-child(2) {
+  
+    border-radius: 0 0 8px 8px;
+  
+  }
+  
+  
+  
+  .group input {
+  
+    border: none;
+  
+    background: transparent;
+  
+    font-size: 20px;
+  
+    width: 100%;
+  
+  }
+  
+  
+  
+  .fas {
+  
+    font-size: 25px;
+  
+    margin-right: 20px;
+  
+    color: #ba3d03;
+  
+  }
+  
+  
+  
+  .helpers,
+  
+  .btns {
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: space-between;
+  
+  }
+  
+  
+  
+  button {
+  
+    padding: 10px 0;
+  
+    width: 33%;
+  
+    color: white;
+  
+    border: 1px solid #ba3d03;
+  
+    background: #ba3d03;
+  
+    border-radius: 8px;
+  
+  }
+  
+  
+  
+  .btns a {
+  
+    padding: 10px 0;
+  
+    width: 33%;
+  
+    text-align: center;
+  
+    color: #ba3d03;
+  
+    border: 1px solid #ba3d03;
+  
+    background: transparent;
+  
+    border-radius: 8px;
+  
+  }
+  
+  
+  
+  .logins {
+  
+    width: 30%;
+  
+    margin: 0 auto;
+  
+    text-align: center;
+  
+  }
+  
+  
+  
+  .icons {
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: space-between;
+  
+  }
+  
+  
+  
+  h2 {
+  
+    font-size: 60px;
+  
+    font-weight: 300;
+  
+    margin: 40px 0;
+  
+  }
+  
+  
+  
+  nav {
+  
+    font-size: 30px;
+  
+  }
+  
+  
+  
+  h1,
+  
+  h3 {
+  
+    font-weight: 300;
+  
+  }
+  
+  
+  
+  h3 {
+  
+    font-size: 30px;
+  
+  }
+  
+  
+  
+  .logins {
+  
+    font-size: 30px;
+  
+  }
+  
+  
+  
+  .logins h4 {
+  
+    margin-bottom: 20px;
+  
+  }
+  
+
+
